@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#6,#3
+   Author: Tou Chea 
+   Filename: index.html
+    
+   --#5 This is my link.
+    https://hunterxxkyo.github.io/kjang_final_project/index.html
+   -->
+    <meta charset="utf-8" />
+    <title>By Tou Chea</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--#4-->
+    <link rel="stylesheet" href="index_styles.css">
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+    <!--I try to do a side bar-->
+    <div class="navbar">
+        <a href="index.html" class="navbar_link">
+            <span class="material-icons">home</span>Home
+        </a>
+        <a href="about.html" class="navbar_link">
+            <span class="material-icons">person</span>About
+        </a>
+        <a href="gallery.html" class="navbar_link">
+            <span class="material-icons">photo_library</span>Gallery
+        </a>
+        <a href="video_class.html" class="navbar_link">
+            <span class="material-icons">date_range</span>Video class
+        
+
+    </div>
+
+    <script>
+        function toggleNav() {
+            document.querySelector(".navbar").classList.toggle("navbar--open");
+        }
+    </script>
+
+
+    <div class="row">
+        <div class="col-1-3">
+            <img src="img/cover1.jpg" alt="">
+        </div>
+        <div class="col-1-3">
+            <img src="img/cover3.jpg" alt="">
+        </div>
+        <div class="col-1-3">
+            <img src="img/cover2.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-1-1">
+            <div class="text-content">
+                <div>
+                    <h1>Angkor Wat in Cambodia </h1>
+                   
+                </div>
+
+                <div>
+                    <!--2.hypertext link-->
+                    <!--#10.11. Create a navigation menu -->
+                    <button type="button" onclick="toggleNav()">LEARN MORE</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+          <p></p>
+     
+    </div>
+
+</body>
+
+</html>
